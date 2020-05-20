@@ -21,7 +21,7 @@ const remove = (id) => {
 };
 
 const findByName = (name) => {
-  return http.get(`/tutorials?name=${id}`);
+  return http.get(`/tutorials?name=${name}`);
 };
 
 export default { get, getAll, create, update, remove, findByName };
